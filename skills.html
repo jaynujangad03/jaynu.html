@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background-color: rgb(100, 151, 117);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .skill {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 2rem);
+            box-sizing: border-box;
+        }
+        .skill h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: rgb(100, 151, 117);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Skills</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="skills">
+            <div class="skill">
+                <h2>Web Development</h2>
+                <p>Proficient in HTML, CSS, JavaScript, and modern frameworks like React and Vue.js.</p>
+            </div>
+            <div class="skill">
+                <h2>Graphic Design</h2>
+                <p>Experienced with Adobe Photoshop, Illustrator, and Figma. Skilled in creating visually appealing designs.</p>
+            </div>
+            <div class="skill">
+                <h2>Project Management</h2>
+                <p>Strong organizational and leadership skills. Experienced with Agile methodologies and tools like JIRA and Trello.</p>
+            </div>
+            <div class="skill">
+                <h2>Data Analysis</h2>
+                <p>Proficient in data analysis tools and languages like Excel, SQL, and Python.</p>
+            </div>
+            <div class="skill">
+                <h2>Communication</h2>
+                <p>Excellent written and verbal communication skills. Experienced in presenting to stakeholders and leading team meetings.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Skills</p>
+    </footer>
+</body>
+</html>
